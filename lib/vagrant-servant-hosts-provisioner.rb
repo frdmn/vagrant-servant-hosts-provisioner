@@ -1,6 +1,6 @@
 require "pathname"
-require "vagrant-hosts-provisioner/plugin"
-require "vagrant-hosts-provisioner/version"
+require "vagrant-servant-hosts-provisioner/plugin"
+require "vagrant-servant-hosts-provisioner/version"
 
 module VagrantPlugins
   module HostsProvisioner

@@ -103,8 +103,8 @@ module VagrantPlugins
 
       def update_content(file_content, include_id, clean)
         id = include_id ? " id: #{read_or_create_id}" : ""
-        header = "## vagrant-hosts-provisioner-start#{id}\n"
-        footer = "## vagrant-hosts-provisioner-end\n"
+        header = "## vagrant-servant-hosts-provisioner-start#{id}\n"
+        footer = "## vagrant-servant-hosts-provisioner-end\n"
         body = clean ? "" : get_hosts_file_entry
         get_new_content(header, footer, body, file_content)
       end

@@ -1,11 +1,11 @@
-# VagrantPlugins::HostsProvisioner
+# VagrantPlugins::ServantHostsProvisioner
 
 A Vagrant provisioner for managing the /etc/hosts file of the host and guest machines.
 ## Installation
 
 Install into vagrant's isolated RubyGems instance using:
 
-    $ vagrant plugin install vagrant-hosts-provisioner
+	$ vagrant plugin install vagrant-servant-hosts-provisioner
 
 ## Usage
 
