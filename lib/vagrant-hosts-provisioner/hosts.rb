@@ -255,7 +255,9 @@ module VagrantPlugins
           options = {}
           options[:color] = color
 
-          @machine.ui.info(data.chomp, options)
+          prefix = "[hosts-updater]"
+
+          @machine.ui.info(prefix + " " +  data.chomp, options)
         end
       end
 
