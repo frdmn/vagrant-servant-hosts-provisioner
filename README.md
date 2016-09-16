@@ -1,6 +1,9 @@
 # VagrantPlugins::ServantHostsProvisioner
 
+(*Notice*: This repository is a fork by @[mdkholy/vagrant-hosts-provisioner](https://github.com/mdkholy/vagrant-hosts-provisioner/) and necessary for **[servant](https://github.com/frdmn/servant)**. :fork_and_knife:)
+
 A Vagrant provisioner for managing the /etc/hosts file of the host and guest machines.
+
 ## Installation
 
 Install into vagrant's isolated RubyGems instance using:
